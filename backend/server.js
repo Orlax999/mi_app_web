@@ -1,20 +1,32 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const path = require('path');  // <-- agrega esto
 require('dotenv').config();
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect(process.env.MONGODB_URI) // Cambiado aquí
+// Conectar a MongoDB
+mongoose.connect(process.env.MONGODB_URI)
     .then(() => console.log("✅ Conectado a MongoDB"))
     .catch(err => console.error("❌ Error al conectar:", err));
 
+// Rutas API
 const productosRoutes = require('./routes/productos');
 app.use('/api/productos', productosRoutes);
 
-const PORT = process.env.PORT || 3000;  // Puerto dinámico para Render
+// Servir archivos estáticos (tu frontend)
+app.use(express.static(path.join(__dirname, '../public'))); // ajusta la ruta a tu carpeta frontend
+
+// Para cualquier otra ruta, mandar el index.html (SPA)
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/index.html')); // ajusta también aquí
+});
+
+// Puerto dinámico para Render o local
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`🚀 Servidor en http://localhost:${PORT}`);
 });
