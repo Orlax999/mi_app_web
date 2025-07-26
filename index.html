@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiguZone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="menu container">
+            <img class="logo-1" src="imagenes/logo.svg">
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono">
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="#sliders">Inicio</a></li>
+                        <li><a href="#products">Productos</a></li>
+                         <li><a href="#info">Sobre nosotros</a></li>
+                    </ul>
+                </div>
+
+                <img class="logo-2" src="imagenes/logo.svg">
+
+                <div class="menu-2">
+                     <ul>
+                         <li><a href="#horarios">Horario</a></li>
+                     </ul>
+
+                     <div class="socials">
+                         <a href="#">
+                             <div class="social">
+                                 <img src="imagenes/s1.svg">
+                             </div>
+                         </a>
+                         <a href="#">
+                             <div class="social">
+                                 <img src="imagenes/s2.svg">
+                             </div>
+                         </a>
+                         <a href="#">
+                             <div class="social">
+                                 <img src="imagenes/s3.svg">
+                             </div>
+                         </a>
+                     </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="header-content container" id="sliders" >
+
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Marvel</h1>
+                                <p> Compra todas las figuras de Marvel a un gran precio y envios rapidos!</p>
+
+                                <div class="botones">
+                                    <a href="productos.html" class="btn-1">Comprar ahora</a>
+                                
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/slider1.png">
+                            </div> 
+                        </div>
+                    </div>
+
+                     <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>DC COMICS</h1>
+                                <p> Compra todas las figuras de DC comics a un gran precio y envios rapidos!</p>
+
+                                <div class="botones">
+                                    <a href="productos.html" class="btn-1">Comprar ahora</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/slider2.png">
+                            </div> 
+                        </div>
+                    </div>
+
+                     <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Las mejores figuras</h1>
+                                <p> Compra todas las figuras de marvel y DC a un gran precio y envios rapidos!</p>
+
+                                <div class="botones">
+                                 <a href="productos.html" class="btn-1">Comprar ahora</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/slider_3.png">
+                            </div> 
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+        
+    </header>
+
+    <main class="products" id="products">
+        <div class="tabs container">
+
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Marvel</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/maximum.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Maximum spider-man Marvel Legends</h4>
+                                    <p>Figura premium</p>
+                                    <span class="price">$1250.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/iron_man85.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Iron man mark 85 Mafex</h4>
+                                    <p>Figura premium</p>
+                                    <span class="price">$1600.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/tas33.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>The amazing spider-man Mafex</h4>
+                                    <p>Figura premium</p>
+                                    <span class="price">$2000.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/doc-ock.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Doc Ock Marvel Legends</h4>
+                                    <p>Figura basica</p>
+                                    <span class="price">$750.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/venom_2.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Venom Marvel Legends</h4>
+                                    <p>Figura basica</p>
+                                    <span class="price">$650.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                      
+                    </div>
+                      <div class="swiper-button-next">    
+                        </div>
+                          <div class="swiper-button-prev">                          
+                        </div>
+                </div>   
+            </div>
+
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">DC</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+
+                         <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/tdk2.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Dark Knight Mafex</h4>
+                                    <p>Figura premium</p>
+                                    <span class="price">$1850.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/batman2.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Batman Hush Mafex</h4>
+                                    <p>Figura premium</p>
+                                    <span class="price">$1400.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/batsup.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Batman fusionado con Superman DC Multiverse</h4>
+                                    <p>Figura basica</p>
+                                    <span class="price">$500.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                         <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/slider2.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Batman Arkham Knight Yamaguchi</h4>
+                                    <p>Figura premium</p>
+                                    <span class="price">$1900.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/superman.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Superman DC Multiverse</h4>
+                                    <p>Figura basica</p>
+                                    <span class="price">$600.00</span>
+                                </div>
+                            </div>
+                        </div>
+                     
+                    </div>
+                       <div class="swiper-button-next">    
+                        </div>
+                          <div class="swiper-button-prev">                          
+                        </div>
+                </div>   
+            </div>
+
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">Figuras Premium</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/superman2.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Superman Cyborg Mafex</h4>
+                                    <p>Figura premium</p>
+                                    <span class="price">$1500.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/spidey2.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Spider-man Yamaguchi</h4>
+                                    <p>Figura premium</p>
+                                    <span class="price">$1400.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/venom_5.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Venom PS5 Marvel Legends</h4>
+                                    <p>Figura premium</p>
+                                    <span class="price">$1500.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                          <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/keaton.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Batman classic S.H. Figuarts</h4>
+                                    <p>Figura premium</p>
+                                    <span class="price">$1500.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                          <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="imagenes/tas33.png">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>The amazing spider-man Mafex</h4>
+                                    <p>Figura premium</p>
+                                    <span class="price">$2000.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                     <div class="swiper-button-next">    
+                        </div> 
+                  <div class="swiper-button-prev">                          
+                        </div>
+                </div>               
+            </div>
+        </div>
+    </main>
+
+<section class="info container" id="info">
+    <div class="info-img">
+        <img src="imagenes/venom_2.png">
+    </div>
+    <div class="info-txt">
+        <h2>Sobre nosotros</h2>
+        <p>
+            FiguZone es una tienda especializada en figuras de colección de alta calidad. Ofrecemos una amplia variedad de productos inspirados en tus universos favoritos, desde superhéroes hasta personajes icónicos del cine y los videojuegos. Nos enfocamos en brindar piezas detalladas, exclusivas y originales, ideales tanto para coleccionistas como para nuevos fanáticos. Nuestra misión es acercarte al mundo del coleccionismo con atención personalizada, envíos seguros y una experiencia única.
+         </p>
+        <a href="" class="btn-2">Mas informacion</a>
+    </div>
+
+</section>
+
+
+<section class="horario" id="horarios">
+    <div class="horario-info container">
+
+        <h2>Horario</h2>
+        <div class="horario-txt">
+            <div class="txt">
+                <h4>Dirección</h4>
+                <p>Avenida Central #456, Colonia El Sol</p>
+                <p>Ciudad de México, CDMX, C.P. 01234</p>
+            </div>
+            <div class="txt">
+                <h4>Horario</h4>
+                <p>Lunes a Viernes : 9 am - 8pm</p>
+                 <p>Sabados y Domingos : 11 am - 7 pm</p>
+            </div>
+             <div class="txt">
+                <h4>Telefono</h4>
+                <p>2274757678</p>
+                 <p>2288367419</p>
+            </div>
+             <div class="txt">
+                <h4>Redes sociales</h4>
+                 <div class="socials">
+                         <a href="#">
+                             <div class="social">
+                                 <img src="imagenes/s1.svg">
+                             </div>
+                         </a>
+                         <a href="#">
+                             <div class="social">
+                                 <img src="imagenes/s2.svg">
+                             </div>
+                         </a>
+                         <a href="#">
+                             <div class="social">
+                                 <img src="imagenes/s3.svg">
+                             </div>
+                         </a>
+                     </div>
+               
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+    
+
+
+<section>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120689.23200149673!2d-98.1921821!3d19.040047200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc0bd5ebc7a3b%3A0x48a6461de494ad95!2sHeroica%20Puebla%20de%20Zaragoza%2C%20Pue.!5e0!3m2!1ses-419!2smx!4v1752366752391!5m2!1ses-419!2smx" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<footer class="footer container">
+    <img class="logo-2" src="imagenes/logo.svg">
+    <div class="links">   
+            <h4>Categorias</h4>
+            <ul>
+                 <li><a href="#">Marvel</a></li>
+                <li><a href="#">DC Comics</a></li>
+                <li><a href="#">Anime</a></li>
+                <li><a href="#">Videojuegos</a></li>
+            </ul>
+    </div>
+     <div class="links">   
+            <h4>Soporte</h4>
+            <ul>
+                 <li><a href="#">Preguntas frecuentes</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Política de privacidad</a></li>
+                <li><a href="#">Devoluciones</a></li>
+            </ul>
+    </div>
+     <div class="links">   
+            <h4>Informacion</h4>
+            <ul>
+                 <li><a href="#">Acerca de nosotros</a></li>
+                <li><a href="#">Dónde estamos</a></li>
+                <li><a href="#">Métodos de pago</a></li>
+                <li><a href="#">Envíos</a></li>
+            </ul>
+    </div>
+     <div class="links">   
+            <h4>Nuestras redes sociales:</h4>
+            <div class="socials">
+                         <a href="#">
+                             <div class="social">
+                                 <img src="imagenes/s1.svg">
+                             </div>
+                         </a>
+                         <a href="#">
+                             <div class="social">
+                                 <img src="imagenes/s2.svg">
+                             </div>
+                         </a>
+                         <a href="#">
+                             <div class="social">
+                                 <img src="imagenes/s3.svg">
+                             </div>
+                         </a>
+                     </div>
+    </div>
+ </footer>
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
