@@ -1,0 +1,360 @@
+[{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3b3"
+  },
+  "id": "figura-01",
+  "titulo": "The amazing spider-man Mafex",
+  "imagen": "imagenes/tas33.png",
+  "categoria": {
+    "nombre": "Marvel",
+    "id": "marvel-figuras"
+  },
+  "precio": 2000,
+  "stock": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3b4"
+  },
+  "id": "figura-02",
+  "titulo": "Maximum spider-man Marvel Legends",
+  "imagen": "imagenes/maximum.png",
+  "categoria": {
+    "nombre": "Marvel",
+    "id": "marvel-figuras"
+  },
+  "precio": 1250,
+  "stock": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3b5"
+  },
+  "id": "figura-03",
+  "titulo": "Scarlet Spider Marvel Legends",
+  "imagen": "imagenes/scarlet2.png",
+  "categoria": {
+    "nombre": "Marvel",
+    "id": "marvel-figuras"
+  },
+  "precio": 600,
+  "stock": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3b6"
+  },
+  "id": "figura-04",
+  "titulo": "Venom classic Marvel Legends",
+  "imagen": "imagenes/venom_2.png",
+  "categoria": {
+    "nombre": "Marvel",
+    "id": "marvel-figuras"
+  },
+  "precio": 650,
+  "stock": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3b7"
+  },
+  "id": "figura-05",
+  "titulo": "Doc Ock Marvel Legends",
+  "imagen": "imagenes/doc-ock.png",
+  "categoria": {
+    "nombre": "Marvel",
+    "id": "marvel-figuras"
+  },
+  "precio": 750,
+  "stock": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3b8"
+  },
+  "id": "figura-06",
+  "titulo": "Spider-man black suit Marvel Legends",
+  "imagen": "imagenes/spiderman3.png",
+  "categoria": {
+    "nombre": "Marvel",
+    "id": "marvel-figuras"
+  },
+  "precio": 700,
+  "stock": 12,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3b9"
+  },
+  "id": "figura-07",
+  "titulo": "Spder-man Yamaguchi",
+  "imagen": "imagenes/spidey2.png",
+  "categoria": {
+    "nombre": "Marvel",
+    "id": "marvel-figuras"
+  },
+  "precio": 1400,
+  "stock": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3ba"
+  },
+  "id": "figura-08",
+  "titulo": "Venom PS5 Marvel Legends",
+  "imagen": "imagenes/venom_5.png",
+  "categoria": {
+    "nombre": "Marvel",
+    "id": "marvel-figuras"
+  },
+  "precio": 1500,
+  "stock": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3bb"
+  },
+  "id": "figura-09",
+  "titulo": "Capitan America Marvel Legends",
+  "imagen": "imagenes/capitan.png",
+  "categoria": {
+    "nombre": "Marvel",
+    "id": "marvel-figuras"
+  },
+  "precio": 600,
+  "stock": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3bc"
+  },
+  "id": "figura-10",
+  "titulo": "Iron man mark 85 Mafex",
+  "imagen": "imagenes/iron_man85.png",
+  "categoria": {
+    "nombre": "Marvel",
+    "id": "marvel-figuras"
+  },
+  "precio": 1600,
+  "stock": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3bd"
+  },
+  "id": "figura-11",
+  "titulo": "Batman Hush Mafex",
+  "imagen": "imagenes/batman2.png",
+  "categoria": {
+    "nombre": "DC",
+    "id": "dc-figuras"
+  },
+  "precio": 1400,
+  "stock": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3be"
+  },
+  "id": "figura-12",
+  "titulo": "The Dark Knight Mafex",
+  "imagen": "imagenes/tdk2.png",
+  "categoria": {
+    "nombre": "DC",
+    "id": "dc-figuras"
+  },
+  "precio": 1850,
+  "stock": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3bf"
+  },
+  "id": "figura-13",
+  "titulo": "Superman Cyborg Mafex",
+  "imagen": "imagenes/superman2.png",
+  "categoria": {
+    "nombre": "DC",
+    "id": "dc-figuras"
+  },
+  "precio": 1500,
+  "stock": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3c0"
+  },
+  "id": "figura-14",
+  "titulo": "Superman Movie Mafex",
+  "imagen": "imagenes/superman.png",
+  "categoria": {
+    "nombre": "DC",
+    "id": "dc-figuras"
+  },
+  "precio": 600,
+  "stock": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3c1"
+  },
+  "id": "figura-15",
+  "titulo": "Batman Arkham Knight Yamaguchi",
+  "imagen": "imagenes/slider2.png",
+  "categoria": {
+    "nombre": "DC",
+    "id": "dc-figuras"
+  },
+  "precio": 1900,
+  "stock": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3c2"
+  },
+  "id": "figura-16",
+  "titulo": "Batman Classic S.H. Figuarts",
+  "imagen": "imagenes/keaton.png",
+  "categoria": {
+    "nombre": "DC",
+    "id": "dc-figuras"
+  },
+  "precio": 1500,
+  "stock": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3c3"
+  },
+  "id": "figura-17",
+  "titulo": "Batman Dick Grayson DC Multiverse",
+  "imagen": "imagenes/grayson.png",
+  "categoria": {
+    "nombre": "DC",
+    "id": "dc-figuras"
+  },
+  "precio": 600,
+  "stock": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3c4"
+  },
+  "id": "figura-18",
+  "titulo": "Batman fusionado con Superman DC Multiverse",
+  "imagen": "imagenes/batsup.png",
+  "categoria": {
+    "nombre": "DC",
+    "id": "dc-figuras"
+  },
+  "precio": 600,
+  "stock": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3c5"
+  },
+  "id": "figura-19",
+  "titulo": "The Flash S.H. Figuarts",
+  "imagen": "imagenes/flash.png",
+  "categoria": {
+    "nombre": "DC",
+    "id": "dc-figuras"
+  },
+  "precio": 1400,
+  "stock": 12,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3c6"
+  },
+  "id": "figura-20",
+  "titulo": "Batman TDK Mafex",
+  "imagen": "imagenes/tdk.png",
+  "categoria": {
+    "nombre": "DC",
+    "id": "dc-figuras"
+  },
+  "precio": 1500,
+  "stock": 11,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3c7"
+  },
+  "id": "figura-21",
+  "titulo": "Batman Armor Mafex",
+  "imagen": "imagenes/armor.png",
+  "categoria": {
+    "nombre": "DC",
+    "id": "dc-figuras"
+  },
+  "precio": 1650,
+  "stock": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3c8"
+  },
+  "id": "figura-22",
+  "titulo": "Batman Justice League Mafex",
+  "imagen": "imagenes/batman_jl.png",
+  "categoria": {
+    "nombre": "DC",
+    "id": "dc-figuras"
+  },
+  "precio": 1700,
+  "stock": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3c9"
+  },
+  "id": "figura-23",
+  "titulo": "Lizard Marvel Legends",
+  "imagen": "imagenes/lizard.png",
+  "categoria": {
+    "nombre": "Marvel",
+    "id": "marvel-figuras"
+  },
+  "precio": 800,
+  "stock": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6883e6317f8236c60173c3ca"
+  },
+  "id": "figura-24",
+  "titulo": "Electro Marvel Legends",
+  "imagen": "imagenes/electro.png",
+  "categoria": {
+    "nombre": "Marvel",
+    "id": "marvel-figuras"
+  },
+  "precio": 650,
+  "stock": 7,
+  "__v": 0
+}]
