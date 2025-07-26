@@ -17,12 +17,11 @@ mongoose.connect(process.env.MONGODB_URI)
 const productosRoutes = require('./routes/productos');
 app.use('/api/productos', productosRoutes);
 
-// Servir archivos estáticos (tu frontend)
-app.use(express.static(path.join(__dirname, '../public'))); // ajusta la ruta a tu carpeta frontend
+// Para servir los archivos que ya tienes en raíz:
+app.use(express.static(path.join(__dirname, '..')));
 
-// Para cualquier otra ruta, mandar el index.html (SPA)
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html')); // ajusta también aquí
+    res.sendFile(path.join(__dirname, '../index.html'));
 });
 
 // Puerto dinámico para Render o local
