@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const path = require('path');  // <-- agrega esto
+const path = require('path');  
 require('dotenv').config();
 
 const app = express();
@@ -20,7 +20,7 @@ app.use('/api/productos', productosRoutes);
 // Para servir los archivos que ya tienes en raíz:
 app.use(express.static(path.join(__dirname, '..')));
 
-app.get('*', (req, res) => {
+app.get('/*splat', (req, res) => {
     res.sendFile(path.join(__dirname, '../index.html'));
 });
 
